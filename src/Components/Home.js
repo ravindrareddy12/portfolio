@@ -16,7 +16,7 @@ function Home(){
             <a href='https://github.com/ravindrareddy12'  target="_blank" rel="noopener noreferrer"><AiFillLinkedin className='link-icon' /></a>
             </div>
             <div className='right-container'>
-                <img src='/photo.jpeg' alt='img'/>
+                <img src='https://thumbs.dreamstime.com/b/little-boy-gamer-little-boy-gamer-front-big-screen-generative-ai-269783815.jpg' alt='img'/>
             </div>
         </div>
         <div className='skills'>

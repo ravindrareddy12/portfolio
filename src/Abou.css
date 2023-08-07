@@ -1,0 +1,118 @@
+
+/* .About-container{
+    margin-top: 2rem;
+    background-color: #fff;
+    height: 35rem;
+    width: 100%;
+    border: black solid 1px;
+}
+.about{
+    margin-top: 5rem;
+    margin-left: 18rem;
+    height: 23rem;
+    width: 60rem;
+    border: black solid 1px;
+    display: flex;
+} */
+.about {
+  background-color: #fff;
+  padding: 15rem 0;
+}
+
+.container1 {
+  margin: 0 auto;
+  max-width: -40rem;
+  padding: 0 4rem;
+}
+
+.about-content {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+}
+
+.img-side {
+    position: relative;
+}
+.work-emoji {
+  top: 250px;
+  position: absolute;
+  left: 350px;
+  width: 6rem!important;
+  z-index: 10;
+}
+.img-side__main-img {
+  border-radius: 1.7rem;
+  height: 25rem;
+  width: 30rem;
+  border-radius: 50px;
+}
+
+.img-side span {
+  background-color: #fff;
+  border-radius: 50%;
+  bottom: -33px;
+  height: 19rem;
+  position: absolute;
+  right: 33px;
+  width: 19rem;
+}
+
+.img-side span img {
+  -webkit-animation: rotate 9s linear infinite;
+  animation: rotate 9s linear infinite;
+  width: 19rem;
+}
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.container2{
+  height: 100%;
+  width: 100%;
+  border: black solid transparent;
+  padding-right: 1.5rem;
+}
+.container2 h1{
+  color: #147efb;
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+.container2 h4{
+color: #2d2e32;
+    font-family: Poppins,sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.4;
+    margin-bottom: 2rem;
+
+}
+
+.container2 p{
+  color: #767676;
+    font-family: Mulish,sans-serif;
+    font-size: 1.2rem;
+    font-weight: 200;
+    line-height: 1.5;
+    text-align: justify;
+}

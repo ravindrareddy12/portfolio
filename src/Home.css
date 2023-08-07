@@ -1,0 +1,146 @@
+.container{
+    height: 97.5vh;
+    width: 100%;
+    
+    background-color: #eeefff;
+}
+
+.hero-container{
+    margin-top: 0px;
+    margin-left: 300px;
+    height: 25rem;
+    width: 60rem;
+    
+    display: flex;
+}
+.left-container{
+    height: 100%;
+    width: 60%;
+  
+}
+.left-container h1{
+    color: #2d2e32;
+    font-size: 4rem;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.left-container  p{
+    color: #555;
+    font-family: Mulish,sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.6;
+}
+.right-container{
+    height: 100%;
+    width: 50%;
+   
+}
+.left-container, .right-container{
+    margin-top: 7rem;
+}
+/* .right-container img {
+    width: 100%;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    animation-name: pulse;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      border-radius: 50%;
+      transform: scale(1);
+    }
+    50% {
+      border-radius: 40%;
+      transform: scale(1.1);
+    }
+    100% {
+      border-radius: 50%;
+      transform: scale(1);
+    }
+  } */
+
+  .right-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    animation-name: pulse;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes pulse {
+    0%, 100% {
+      border-radius: 50%;
+    }
+    50% {
+      border-radius: 30%;
+    }
+  }
+  
+  
+.git-icon:hover{
+  color: black;
+}
+.link-icon:hover{
+    color: blue;
+}
+.link-icon , .git-icon{
+    font-size: 30px;
+    color: black;
+}
+.skills{
+    margin-top: 10rem;
+    margin-left: 300px;
+    display: flex;
+}
+.skills p{
+    border-right: 2px solid rgba(45,46,50,.5);
+    color: #2d2e32;
+    font-family: Mulish,sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.logos{
+    margin-left: 0rem;
+    display: inline-block;
+}
+.logos ul{
+    display: flex;
+    list-style: none;
+}
+  .logos ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .logos ul li {
+    height: 3.3rem;
+    width: 3.3rem;
+    border-radius: 50%;
+    margin-left: 2rem;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add the box shadow */
+    transition: background-color 0.3s ease;
+    display: flex; /* Make the list item a flex container */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+  }
+  
+  .logos ul li:hover {
+    background-color: lightgray;
+  }
+  
+  .logos ul li img {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+  }
+  

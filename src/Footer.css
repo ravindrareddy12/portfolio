@@ -1,0 +1,27 @@
+footer {
+    background-color: #2d2e32;
+    padding: 2rem 0;
+    width: 100%;
+    margin-top: 80px;
+}
+.container-footer {
+    margin: 0 auto;
+    max-width: 107rem;
+    padding: 0 4rem;
+}
+
+.footerc {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer h3 {
+    color: #fff;
+    font-size: 1.7rem;
+}
+
+.footerc__socials {
+    display: flex;
+    gap: 2rem;
+}

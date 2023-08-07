@@ -16,7 +16,7 @@ function Home(){
             <a href='https://github.com/ravindrareddy12'  target="_blank" rel="noopener noreferrer"><AiFillLinkedin className='link-icon' /></a>
             </div>
             <div className='right-container'>
-                <img src='/photo.png' alt='img'/>
+                <img src='/photo.jpeg' alt='img'/>
             </div>
         </div>
         <div className='skills'>
